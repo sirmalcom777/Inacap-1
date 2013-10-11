@@ -1,9 +1,42 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
 </head>
+
 <body>
-	<p>Hola Mundo</p>
+<form id="form1" name="form1" method="post" action="CalcularNota">
+  <table width="640" border="0" cellspacing="0" cellpadding="10">
+    <tr>
+      <td>Nombre:</td>
+      <td><label for="Nombre"></label>
+      <input type="text" name="NombreTXT" id="NombreTXT" /></td>
+      <td>Apellido:</td>
+      <td><label for="apellidoTXT"></label>
+      <input type="text" name="apellidoTXT" id="apellidoTXT" /></td>
+    </tr>
+    <tr>
+      <td>Nota1:</td>
+      <td><label for="nota1TXT"></label>
+      <input type="text" name="nota1TXT" id="nota1TXT" /></td>
+      <td>Nota2:</td>
+      <td><label for="nota2TXT"></label>
+      <input type="text" name="nota2TXT" id="nota2TXT" /></td>
+    </tr>
+    <tr>
+      <td>Nota3:</td>
+      <td><label for="nota3TXT"></label>
+      <input type="text" name="nota3TXT" id="nota3TXT" /></td>
+      <td>Nota4</td>
+      <td><label for="nota4TXT"></label>
+      <input type="text" name="nota4TXT" id="nota4TXT" /></td>
+    </tr>
+    <tr>
+      <td colspan="4"><input type="submit" name="Calcular" id="Calcular" value="Calcular" /></td>
+    </tr>
+  </table>
+  <br />
+</form>
 </body>
 </html>
